@@ -1,0 +1,30 @@
+{
+  "name": "forge-IoT-Demo",
+  "version": "0.0.1",
+  "description": "Autodesk Forge demo application showing the visualizing of IoT data in manufacturing",
+  "scripts": {
+    "build:client": "node-sass tools/bootstrap-theme/custom.scss public/stylesheets/bootstrap.css",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "autodesk",
+    "forge",
+    "manufacturing",
+    "digital-twin"
+  ],
+  "author": "Autodesk Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "autodesk-forge-tools": "^0.2.0",
+    "express": "^4.16.4",
+    "helmet": "^4.1.0",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.14.1"
+  }
+}
